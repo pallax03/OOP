@@ -10,7 +10,7 @@ OOP Course: 70219 - Programming, in Computer Science and Engineering at Unibo
     * [`04-impl-calculator`](https://github.com/pallax03/OOP/tree/master/Lezioni/09_26/04-impl-calculator)
     * [`05-train`](https://github.com/pallax03/OOP/tree/master/Lezioni/09_26/05-train)
     * [`06-impl-complexnum-calculator`](https://github.compallax03/OOP/treemaster/Lezioni/09_26/06-impl-complexnum-calculator)
-</br>
+
 2. 10_02
     * [`20-compilation-basics`](https://github.com/pallax03/OOP/tree/master/Lezioni/10_02/20-compilation-basics)
     * [`21-compilation-with-packages`](https://github.com/pallax03/OOP/tree/master/Lezioni/10_02/21-compilation-with-packages)
