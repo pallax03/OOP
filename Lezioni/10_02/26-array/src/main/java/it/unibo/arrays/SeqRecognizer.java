@@ -34,14 +34,8 @@ class SeqRecognizer {
      * Recognizes: [2|3]{4}5.
      */
     static boolean checkSeq4(final int[] array) {
-        if(array == null) return false;
-        try {
-            if(array[0] > array[1]) return false;
-        } catch (Exception e) {
-            if(array[array.length-1]==5) return true;
-            return false;
-        }
-        if(array[array.length-1]<=4) return false;
+        if(array.length == 0) return false;
+        if(array[array.length-1] != 5) return false;
         return true;
     }
 

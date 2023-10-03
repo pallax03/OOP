@@ -44,17 +44,71 @@ class WorkWithArrays {
         return res;
     }
 
+    static void swap(int[] array, final int i, final int j) {
+        int tmp = array[i];
+        array[i] = array[j];
+        array[j] = tmp;
+    } 
+
     static int[] sortArray(final int[] array, final boolean isDescending) {
-        
-        return array;
+        int[] res = array;
+
+        //BUBBLE SORT
+        for(int i=0; i < array.length; i++){  
+            for(int j=1; j < (array.length-i); j++){  
+                if(isDescending) {
+                    if(res[j-1] < res[j]) {
+                        swap(res, j, j-1);
+                    }
+                }
+                else {
+                    if(res[j-1] > res[j]) {
+                        swap(res, j, j-1);
+                    }
+                }
+            } 
+        }
+        return res;
     }
 
+    static double calculateAvg(final int[] array) {
+        int sum = 0;
+        for (int num : array) {
+            sum+=num;
+        }
+        return (double)sum/(double)array.length;
+    } 
+
+    final static int SQUARED = 2;
+
     static double computeVariance(final int[] array) {
-        return 0;
+        double averege = calculateAvg(array);
+        double summation=0;
+        for (int element : array) {
+            summation += Math.pow((double)element-averege, SQUARED);
+        }
+        return summation/(double)array.length;
     }
 
     static int[] revertUpTo(final int[] array, final int element) {
-        return null;
+        boolean flag = false;
+        int[] res = new int[array.length];
+        int j=0;
+        for (int i=array.length-1;i>=0;i--) {
+            if(flag) {
+                res[j] = array[i];
+                res[i] = array[j];
+                j++;
+            }
+            else if(array[i]==element) {
+                flag = true;
+                i++;
+            }
+            else {
+                res[i] = array[i];
+            }
+        }
+        return res;
     }
 
     static int[] duplicateElements(final int[] array, final int times) {

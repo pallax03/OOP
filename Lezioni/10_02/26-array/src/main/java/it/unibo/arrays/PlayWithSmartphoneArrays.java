@@ -3,15 +3,27 @@ package it.unibo.arrays;
 class PlayWithSmartphoneArrays {
 
     static int search(Smartphone[] array, String brand) {
-        return 0;
+        int count=0;
+        for (Smartphone smartphone : array) {
+            if(brand.equals(smartphone.getBrand())) count++;
+        }
+        return count;
     }
 
     static int search(Smartphone[] array, boolean hasNFC, boolean hasGPS) {
-        return 0;
+        int count=0;
+        for (Smartphone smartphone : array) {
+            if(smartphone.hasNFC() && smartphone.hasGPS()) count++;
+        }
+        return count;
     }
 
     static int search(Smartphone[] array, int nCPUs, int sdSize, boolean has3G) {
-        return 0;
+        int count=0;
+        for (Smartphone smartphone : array) {
+            if(smartphone.getCPUs() == nCPUs && smartphone.getSdSize() == sdSize && smartphone.has3G()) count++;
+        }
+        return count;
     }
 
     public static void main(String[] args) {
@@ -36,9 +48,9 @@ class PlayWithSmartphoneArrays {
 
         // 6) Eseuguire diverse operazioni di ricerca con i metodi search implementati e
         // controllare la corrispondenza del numero dei telefoni facenti match
-        System.out.println("The number of HTC smartphones is: " + search(phones, "HTC"));
-        System.out.println("The number of smartphones with NFC & GPS is: " + search(phones, true, true));
-        System.out.println("The number of smartphones with 1 CPU 2048 MB sd and 3g is: "
-                + search(phones, 2, 8192, true));
+        System.out.println("The number of HTC smartphones is: " + search(phones, "HTC"));   // 1
+        System.out.println("The number of smartphones with NFC & GPS is: " + search(phones, true, true)); // 3
+        System.out.println("The number of smartphones with 2 CPU 2048 MB sd and 3g is: "
+                + search(phones, 2, 8192, true));      // 3
     }
 }
