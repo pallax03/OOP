@@ -18,3 +18,10 @@ OOP Course: 70219 - Programming, in Computer Science and Engineering at Unibo
     * [`24-program-arguments`](https://github.com/pallax03/OOP/tree/master/Lezioni/10_02/24-program-arguments)
     * [`25-program-arguments`](https://github.com/pallax03/OOP/tree/master/Lezioni/10_02/25-program-arguments)
     * [`26-array`](https://github.com/pallax03/OOP/tree/master/Lezioni/10_02/26-array)
+3. 10_09
+    * [`31-gradleization`](https://github.com/pallax03/OOP/tree/master/Lezioni/10_09/31-gradleization)
+    * [`32-toString`](https://github.com/pallax03/OOP/tree/master/Lezioni/10_09/32-toString)
+    * [`33-encapsulation`](https://github.com/pallax03/OOP/tree/master/Lezioni/10_09/33-encapsulation)
+    * [`34-interfaces`](https://github.com/pallax03/OOP/tree/master/Lezioni/10_09/34-interfaces)
+    * [`35-composition`](https://github.com/pallax03/OOP/tree/master/Lezioni/10_09/35-composition)
+    * [`36-design-from-scratch`](https://github.com/pallax03/OOP/tree/master/Lezioni/10_09/36-design-from-scratch)
