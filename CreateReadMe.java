@@ -32,7 +32,9 @@ class CreateReadMe {
                 }
             }
         } catch (Exception e) {System.out.println(e);}
+        
         saveReadMe(line);
+        System.out.println("readme updated, ready to push");
     }
 
     static int nProjectAlreadyWrite(List<String> line) {
