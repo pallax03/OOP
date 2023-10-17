@@ -41,7 +41,6 @@ public final class TestRobotWithArms {
             walle.moveUp();
         }
         consumption1Item -= walle.getBatteryLevel();
-        System.out.println("1item: "+consumption1Item+ ", Empty: "+ consumptionEmpty);
         assertEquals(walleConsumption, true, consumption1Item > consumptionEmpty);
         walle.pickUp();
         assertEquals(walleItems, 2, walle.getCarriedItemsCount());
@@ -50,7 +49,6 @@ public final class TestRobotWithArms {
             walle.moveUp();
         }
         consumption2Item -= walle.getBatteryLevel();
-        System.out.println("1item: "+consumption1Item+ ", Empty: "+ consumptionEmpty);
         assertEquals(walleConsumption, true, consumption2Item > consumption1Item);
         walle.pickUp();
         assertEquals(walleItems, 2, walle.getCarriedItemsCount());

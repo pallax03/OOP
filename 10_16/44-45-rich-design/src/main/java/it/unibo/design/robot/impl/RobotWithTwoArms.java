@@ -1,6 +1,7 @@
 package it.unibo.design.robot.impl;
 
 import it.unibo.design.robot.api.RobotWithArms;
+import it.unibo.design.robot.component.impl.BasicArm;
 
 public class RobotWithTwoArms extends BaseRobot implements RobotWithArms {
 
@@ -51,11 +52,14 @@ public class RobotWithTwoArms extends BaseRobot implements RobotWithArms {
         return false;
     }
 
+    protected double getBatteryRequirementForMovement() {
+        return MOVEMENT_DELTA_CONSUMPTION + (getCarriedItemsCount()*BasicArm.GRAB_DELTA_CONSUMPTION);
+    }
+
     public int getCarriedItemsCount() {
         int count = 0;
         count += left_arm.isGrabbing() ? 1 : 0;
         count += right_arm.isGrabbing() ? 1 : 0;
         return count;
     }
-    
 }

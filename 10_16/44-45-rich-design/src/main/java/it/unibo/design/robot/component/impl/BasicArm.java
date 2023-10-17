@@ -1,7 +1,7 @@
-package it.unibo.design.robot.impl;
+package it.unibo.design.robot.component.impl;
 
 public class BasicArm{
-    public static final double GRAB_DELTA_CONSUMPTION = 10;
+    public static final double GRAB_DELTA_CONSUMPTION = 0.2;
 
     private String name;
     private boolean grab;
