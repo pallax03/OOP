@@ -2,8 +2,8 @@
 *.class
 
 #ignore gradlew files
-*/.gradle
-*/build
+**/.gradle
+**/build
 
 # Log file
 *.log
