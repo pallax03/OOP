@@ -1,0 +1,32 @@
+# OOP
+OOP Course: 70219 - Programming, in Computer Science and Engineering at Unibo
+
+### Lessons:
+1. 09_26
+    * [`00-hello-world`](https://github.com/pallax03/OOP/tree/master/09_26/00-hello-world)
+    * [`01-analysis-method-scope-with-multifile-compilation`](https://github.com/pallax03/OOP/tree/master/09_26/01-analysis-method-scope-with-multifile-compilation)
+    * [`02-fill-class-student`](https://github.com/pallax03/OOP/tree/master/09_26/02-fill-class-student)
+    * [`03-impl-complexnum`](https://github.com/pallax03/OOP/tree/master/09_26/03-impl-complexnum)
+    * [`04-impl-calculator`](https://github.com/pallax03/OOP/tree/master/09_26/04-impl-calculator)
+    * [`05-train`](https://github.com/pallax03/OOP/tree/master/09_26/05-train)
+    * [`06-impl-complexnum-calculator`](https://github.com/pallax03/OOP/tree/master/09_26/06-impl-complexnum-calculator)
+2. 10_02
+    * [`20-compilation-basics`](https://github.com/pallax03/OOP/tree/master/10_02/20-compilation-basics)
+    * [`21-compilation-with-packages`](https://github.com/pallax03/OOP/tree/master/10_02/21-compilation-with-packages)
+    * [`22-compilation-classpath`](https://github.com/pallax03/OOP/tree/master/10_02/22-compilation-classpath)
+    * [`23-reference-value`](https://github.com/pallax03/OOP/tree/master/10_02/23-reference-value)
+    * [`24-program-arguments`](https://github.com/pallax03/OOP/tree/master/10_02/24-program-arguments)
+    * [`25-program-arguments`](https://github.com/pallax03/OOP/tree/master/10_02/25-program-arguments)
+    * [`26-array`](https://github.com/pallax03/OOP/tree/master/10_02/26-array)
+3. 10_09
+    * [`31-gradleization`](https://github.com/pallax03/OOP/tree/master/10_09/31-gradleization)
+    * [`32-toString`](https://github.com/pallax03/OOP/tree/master/10_09/32-toString)
+    * [`33-encapsulation`](https://github.com/pallax03/OOP/tree/master/10_09/33-encapsulation)
+    * [`34-interfaces`](https://github.com/pallax03/OOP/tree/master/10_09/34-interfaces)
+    * [`35-composition`](https://github.com/pallax03/OOP/tree/master/10_09/35-composition)
+    * [`36-design-from-scratch`](https://github.com/pallax03/OOP/tree/master/10_09/36-design-from-scratch)
+4. 10_16
+    * [`41-dry`](https://github.com/pallax03/OOP/tree/master/10_16/41-dry)
+    * [`42-abstract-classes`](https://github.com/pallax03/OOP/tree/master/10_16/42-abstract-classes)
+    * [`43-git`](https://github.com/pallax03/OOP/tree/master/10_16/43-git)
+    * [`44-45-rich-design`](https://github.com/pallax03/OOP/tree/master/10_16/44-45-rich-design)

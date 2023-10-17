@@ -20,10 +20,10 @@ class CreateReadMe {
             line = Files.readAllLines(Paths.get(README_PATH), StandardCharsets.UTF_8);
             line.get(line.size()-1);
             int count=0;
-            File projects_path = new File("/.");
+            File projects_path = new File(RELATIVE_PATH);
             for (String projects_name : projects_path.list()) {
                 if((projects_name.split("_")).length == 2)
-                {
+                {  
                     File project_path = new File("./"+projects_name);
                     count++;
                     if(count > nProjectAlreadyWrite(line)) {
@@ -43,13 +43,13 @@ class CreateReadMe {
     static int nProjectAlreadyWrite(List<String> line) {
         int i=1;
         for (String word : line) {
-            System.out.println(word);
             if(word.startsWith(i+".")) i++;
         }
         return i-1;
     } 
 
     static String writeListHead(int i, String Week_day) {
+        System.out.println("write: "+i+". "+Week_day);
         return (i+". "+Week_day);
     }
 
