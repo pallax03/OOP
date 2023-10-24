@@ -30,3 +30,8 @@ OOP Course: 70219 - Programming, in Computer Science and Engineering at Unibo
     * [`42-abstract-classes`](https://github.com/pallax03/OOP/tree/master/10_16/42-abstract-classes)
     * [`43-git`](https://github.com/pallax03/OOP/tree/master/10_16/43-git)
     * [`44-45-rich-design`](https://github.com/pallax03/OOP/tree/master/10_16/44-45-rich-design)
+5. 10_23
+    * [`51-set`](https://github.com/pallax03/OOP/tree/master/10_23/51-set)
+    * [`52-comparator`](https://github.com/pallax03/OOP/tree/master/10_23/52-comparator)
+    * [`53-implement-with-collections`](https://github.com/pallax03/OOP/tree/master/10_23/53-implement-with-collections)
+    * [`54-branching`](https://github.com/pallax03/OOP/tree/master/10_23/54-branching)

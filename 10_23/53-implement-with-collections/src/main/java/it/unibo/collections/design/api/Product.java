@@ -15,4 +15,7 @@ public interface Product {
      * @return the amount of product
      */
     double getQuantity();
+
+    @Override
+    boolean equals(Object o);
 }
