@@ -20,7 +20,6 @@ public class SimpleComposableRobot extends BaseRobot implements ComposableRobot{
 
     @Override
     public void doCycle() {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'doCycle'");
     }
 

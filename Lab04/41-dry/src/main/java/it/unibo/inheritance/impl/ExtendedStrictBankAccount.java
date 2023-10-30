@@ -14,7 +14,6 @@ public class ExtendedStrictBankAccount extends SimpleBankAccount{
         }
     }
     
-    //TODO
     public void chargeManagementFees(final int id) {
         final double feeAmount = MANAGEMENT_FEE + super.getTransactionsCount() * TRANSACTION_FEE;
         if (checkUser(id) && isWithdrawAllowed(feeAmount)) {

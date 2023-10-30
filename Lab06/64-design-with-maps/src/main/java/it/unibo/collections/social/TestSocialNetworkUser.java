@@ -48,11 +48,11 @@ public final class TestSocialNetworkUser {
          * 
          * * Adam Smith, asmith, (no age)
          */
-        final SocialNetworkUser<User> kbacon = null; //TODO
-        final SocialNetworkUser<User> dwashington = null; //TODO
-        final SocialNetworkUser<User> mgladwell = null; //TODO
-        final SocialNetworkUser<User> ntaleb = null; //TODO
-        final User asmith = null; //TODO
+        final SocialNetworkUser<User> kbacon = null;
+        final SocialNetworkUser<User> dwashington = null;
+        final SocialNetworkUser<User> mgladwell = null;
+        final SocialNetworkUser<User> ntaleb = null;
+        final User asmith = null;
         /*
          * Make people follow each other
          */
