@@ -2,36 +2,42 @@
 OOP Course: 70219 - Programming, in Computer Science and Engineering at Unibo
 
 ### Lessons:
-1. 09_26
-    * [`00-hello-world`](https://github.com/pallax03/OOP/tree/master/09_26/00-hello-world)
-    * [`01-analysis-method-scope-with-multifile-compilation`](https://github.com/pallax03/OOP/tree/master/09_26/01-analysis-method-scope-with-multifile-compilation)
-    * [`02-fill-class-student`](https://github.com/pallax03/OOP/tree/master/09_26/02-fill-class-student)
-    * [`03-impl-complexnum`](https://github.com/pallax03/OOP/tree/master/09_26/03-impl-complexnum)
-    * [`04-impl-calculator`](https://github.com/pallax03/OOP/tree/master/09_26/04-impl-calculator)
-    * [`05-train`](https://github.com/pallax03/OOP/tree/master/09_26/05-train)
-    * [`06-impl-complexnum-calculator`](https://github.com/pallax03/OOP/tree/master/09_26/06-impl-complexnum-calculator)
-2. 10_02
-    * [`20-compilation-basics`](https://github.com/pallax03/OOP/tree/master/10_02/20-compilation-basics)
-    * [`21-compilation-with-packages`](https://github.com/pallax03/OOP/tree/master/10_02/21-compilation-with-packages)
-    * [`22-compilation-classpath`](https://github.com/pallax03/OOP/tree/master/10_02/22-compilation-classpath)
-    * [`23-reference-value`](https://github.com/pallax03/OOP/tree/master/10_02/23-reference-value)
-    * [`24-program-arguments`](https://github.com/pallax03/OOP/tree/master/10_02/24-program-arguments)
-    * [`25-program-arguments`](https://github.com/pallax03/OOP/tree/master/10_02/25-program-arguments)
-    * [`26-array`](https://github.com/pallax03/OOP/tree/master/10_02/26-array)
-3. 10_09
-    * [`31-gradleization`](https://github.com/pallax03/OOP/tree/master/10_09/31-gradleization)
-    * [`32-toString`](https://github.com/pallax03/OOP/tree/master/10_09/32-toString)
-    * [`33-encapsulation`](https://github.com/pallax03/OOP/tree/master/10_09/33-encapsulation)
-    * [`34-interfaces`](https://github.com/pallax03/OOP/tree/master/10_09/34-interfaces)
-    * [`35-composition`](https://github.com/pallax03/OOP/tree/master/10_09/35-composition)
-    * [`36-design-from-scratch`](https://github.com/pallax03/OOP/tree/master/10_09/36-design-from-scratch)
-4. 10_16
-    * [`41-dry`](https://github.com/pallax03/OOP/tree/master/10_16/41-dry)
-    * [`42-abstract-classes`](https://github.com/pallax03/OOP/tree/master/10_16/42-abstract-classes)
-    * [`43-git`](https://github.com/pallax03/OOP/tree/master/10_16/43-git)
-    * [`44-45-rich-design`](https://github.com/pallax03/OOP/tree/master/10_16/44-45-rich-design)
-5. 10_23
-    * [`51-set`](https://github.com/pallax03/OOP/tree/master/10_23/51-set)
-    * [`52-comparator`](https://github.com/pallax03/OOP/tree/master/10_23/52-comparator)
-    * [`53-implement-with-collections`](https://github.com/pallax03/OOP/tree/master/10_23/53-implement-with-collections)
-    * [`54-branching`](https://github.com/pallax03/OOP/tree/master/10_23/54-branching)
+1. Lab01
+    * [`00-hello-world`](https://github.com/pallax03/OOP/tree/master/Lab01/00-hello-world)
+    * [`01-analysis-method-scope-with-multifile-compilation`](https://github.com/pallax03/OOP/tree/master/Lab01/01-analysis-method-scope-with-multifile-compilation)
+    * [`02-fill-class-student`](https://github.com/pallax03/OOP/tree/master/Lab01/02-fill-class-student)
+    * [`03-impl-complexnum`](https://github.com/pallax03/OOP/tree/master/Lab01/03-impl-complexnum)
+    * [`04-impl-calculator`](https://github.com/pallax03/OOP/tree/master/Lab01/04-impl-calculator)
+    * [`05-train`](https://github.com/pallax03/OOP/tree/master/Lab01/05-train)
+    * [`06-impl-complexnum-calculator`](https://github.com/pallax03/OOP/tree/master/Lab01/06-impl-complexnum-calculator)
+2. Lab02
+    * [`20-compilation-basics`](https://github.com/pallax03/OOP/tree/master/Lab02/20-compilation-basics)
+    * [`21-compilation-with-packages`](https://github.com/pallax03/OOP/tree/master/Lab02/21-compilation-with-packages)
+    * [`22-compilation-classpath`](https://github.com/pallax03/OOP/tree/master/Lab02/22-compilation-classpath)
+    * [`23-reference-value`](https://github.com/pallax03/OOP/tree/master/Lab02/23-reference-value)
+    * [`24-program-arguments`](https://github.com/pallax03/OOP/tree/master/Lab02/24-program-arguments)
+    * [`25-program-arguments`](https://github.com/pallax03/OOP/tree/master/Lab02/25-program-arguments)
+    * [`26-array`](https://github.com/pallax03/OOP/tree/master/Lab02/26-array)
+3. Lab03
+    * [`31-gradleization`](https://github.com/pallax03/OOP/tree/master/Lab03/31-gradleization)
+    * [`32-toString`](https://github.com/pallax03/OOP/tree/master/Lab03/32-toString)
+    * [`33-encapsulation`](https://github.com/pallax03/OOP/tree/master/Lab03/33-encapsulation)
+    * [`34-interfaces`](https://github.com/pallax03/OOP/tree/master/Lab03/34-interfaces)
+    * [`35-composition`](https://github.com/pallax03/OOP/tree/master/Lab03/35-composition)
+    * [`36-design-from-scratch`](https://github.com/pallax03/OOP/tree/master/Lab03/36-design-from-scratch)
+4. Lab04
+    * [`41-dry`](https://github.com/pallax03/OOP/tree/master/Lab04/41-dry)
+    * [`42-abstract-classes`](https://github.com/pallax03/OOP/tree/master/Lab04/42-abstract-classes)
+    * [`43-git`](https://github.com/pallax03/OOP/tree/master/Lab04/43-git)
+    * [`44-45-rich-design`](https://github.com/pallax03/OOP/tree/master/Lab04/44-45-rich-design)
+5. Lab05
+    * [`51-set`](https://github.com/pallax03/OOP/tree/master/Lab05/51-set)
+    * [`52-comparator`](https://github.com/pallax03/OOP/tree/master/Lab05/52-comparator)
+    * [`53-implement-with-collections`](https://github.com/pallax03/OOP/tree/master/Lab05/53-implement-with-collections)
+    * [`54-branching`](https://github.com/pallax03/OOP/tree/master/Lab05/54-branching)
+6. Lab06
+    * [`61-git-remotes-merge-conflict`](https://github.com/pallax03/OOP/tree/master/Lab06/61-git-remotes-merge-conflict)
+    * [`62-use-lists-and-maps`](https://github.com/pallax03/OOP/tree/master/Lab06/62-use-lists-and-maps)
+    * [`63-exceptions`](https://github.com/pallax03/OOP/tree/master/Lab06/63-exceptions)
+    * [`64-design-with-maps`](https://github.com/pallax03/OOP/tree/master/Lab06/64-design-with-maps)
+    * [`65-implement-generic-class`](https://github.com/pallax03/OOP/tree/master/Lab06/65-implement-generic-class)

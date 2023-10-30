@@ -22,7 +22,7 @@ class CreateReadMe {
             int count=0;
             File projects_path = new File(RELATIVE_PATH);
             for (String projects_name : projects_path.list()) {
-                if((projects_name.split("_")).length == 2)
+                if(projects_name.startsWith("Lab"))
                 {  
                     File project_path = new File("./"+projects_name);
                     count++;
