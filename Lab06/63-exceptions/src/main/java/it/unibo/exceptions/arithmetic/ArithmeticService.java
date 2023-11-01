@@ -58,6 +58,7 @@ public final class ArithmeticService {
         try {
             if (commandQueue.isEmpty()) {
                 System.out.println("No commands sent, no result available");
+                throw new IllegalStateException("No commands sent, no result available");
             }
             while (commandQueue.size() != 1) {
                 final var nextMultiplication = commandQueue.indexOf(TIMES);
@@ -75,7 +76,8 @@ public final class ArithmeticService {
                         : max(nextSum, nextMinus);
                     if (nextOp != -1) {
                         if (commandQueue.size() < 3) {
-                            System.out.println("Inconsistent operation: " + commandQueue);
+                            // System.out.println("Inconsistent operation: " + commandQueue);
+                            throw new IllegalStateException(commandQueue.toString());
                         }
                         computeAt(nextOp);
                     } else if (commandQueue.size() > 1) {
@@ -87,7 +89,8 @@ public final class ArithmeticService {
             final var finalResult = commandQueue.get(0);
             final var possibleException = nullIfNumberOrException(finalResult);
             if (possibleException != null) {
-                System.out.println("Invalid result of operation: " + finalResult);
+                //System.out.println("Invalid result of operation: " + finalResult);
+                throw new IllegalStateException(finalResult, possibleException);
             }
             return finalResult;
             /*
@@ -102,13 +105,16 @@ public final class ArithmeticService {
 
     private void computeAt(final int operatorIndex) {
         if (operatorIndex == 0) {
-            System.out.println("Illegal start of operation: " + commandQueue);
+            // System.out.println("Illegal start of operation: " + commandQueue);
+            throw new IllegalStateException(commandQueue.toString());
         }
         if (commandQueue.size() < 3) {
-            System.out.println("Not enough operands: " + commandQueue);
+            // System.out.println("Not enough operands: " + commandQueue);
+            throw new IllegalStateException(commandQueue.toString());
         }
         if (commandQueue.size() < operatorIndex + 1) {
-            System.out.println("Missing right operand: " + commandQueue);
+            // System.out.println("Missing right operand: " + commandQueue);
+            throw new IllegalStateException(commandQueue.toString());
         }
         final var rightOperand = commandQueue.remove(operatorIndex + 1);
         final var leftOperand = commandQueue.remove(operatorIndex - 1);
