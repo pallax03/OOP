@@ -4,9 +4,3 @@
 [submodule "OOP-lab07"]
 	path = OOP-lab07
 	url = https://github.com/pallax03/OOP-lab07
-[submodule "OOP-lab08"]
-	path = OOP-lab08
-	url = https://github.com/pallax03/OOP-lab08
-[submodule "OOP-lab09"]
-	path = OOP-lab09
-	url = https://github.com/pallax03/OOP-lab09.git
