@@ -4,6 +4,7 @@
 #ignore gradlew files
 **/.gradle
 **/build
+**/gradlew.bat
 
 # Log file
 *.log
