@@ -10,3 +10,6 @@
 [submodule "OOP-lab09"]
 	path = OOP-lab09
 	url = https://github.com/pallax03/OOP-lab09
+[submodule "OOP-lab10"]
+	path = OOP-lab10
+	url = https://github.com/pallax03/OOP-lab10
