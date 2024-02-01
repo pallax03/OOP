@@ -16,3 +16,6 @@
 [submodule "OOP-lab11"]
 	path = OOP-lab11
 	url = https://github.com/pallax03/OOP-lab11
+[submodule "ElektReader"]
+	path = ElektReader
+	url = https://github.com/pallax03/ElektReader.git
